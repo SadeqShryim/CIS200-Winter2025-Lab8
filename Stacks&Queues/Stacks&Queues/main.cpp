@@ -34,9 +34,23 @@ string convert_to_binary(int some_int) {
 }
 
 int getTimeToStart(int cars) {
+	//seed
+	srand(time(0));
+	queue<int> trafficLine;
 
+	for (int i = 0; i < cars; ++i) {
+		trafficLine.push(timeDelay());
+	}
+
+	int totalTime = 0;
+	while (!trafficLine.empty()) {
+		totalTime += trafficLine.front();
+		trafficLine.pop();
+	}
+
+	return totalTime; 
 }
 
 int timeDelay() {
-
+	return rand() % 3 + 1; 
 }
