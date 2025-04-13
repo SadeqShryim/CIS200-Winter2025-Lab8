@@ -7,8 +7,8 @@
 
 using namespace std;
 
-////Func.1 --> Brackets balanced
-//bool is_balanced(string some_string);
+//Func.1 --> Brackets balanced
+bool is_balanced(string some_string);
 
 //Func.2 --> Turn to binary
 string convert_to_binary(int some_int);
@@ -35,10 +35,10 @@ int main() {
 	cout << "You will start moving in " << trafficTime << " seconds." << endl;
 	return 0;
 }
-//
-//bool is_balanced(string some_string) {
-//
-//}
+
+bool is_balanced(string some_string) {
+
+}
 
 string convert_to_binary(int some_int) {
 	//base case

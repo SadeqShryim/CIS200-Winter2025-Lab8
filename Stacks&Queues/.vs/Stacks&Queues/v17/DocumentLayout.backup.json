@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Smshr\\OneDrive\\Documents\\GitHub\\CIS200-Winter2025-Lab9\\Stacks\u0026Queues\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B31EA591-61C4-4F8E-896F-C4B380B8218F}|Stacks\u0026Queues\\Stacks\u0026Queues.vcxproj|C:\\Users\\Smshr\\OneDrive\\Documents\\GitHub\\CIS200-Winter2025-Lab9\\Stacks\u0026Queues\\Stacks\u0026Queues\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31EA591-61C4-4F8E-896F-C4B380B8218F}|Stacks\u0026Queues\\Stacks\u0026Queues.vcxproj|solutionrelative:Stacks\u0026Queues\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Smshr\\OneDrive\\Documents\\GitHub\\CIS200-Winter2025-Lab9\\Stacks\u0026Queues\\Stacks\u0026Queues\\main.cpp",
+              "RelativeDocumentMoniker": "Stacks\u0026Queues\\main.cpp",
+              "ToolTip": "C:\\Users\\Smshr\\OneDrive\\Documents\\GitHub\\CIS200-Winter2025-Lab9\\Stacks\u0026Queues\\Stacks\u0026Queues\\main.cpp",
+              "RelativeToolTip": "Stacks\u0026Queues\\main.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T07:29:27.661Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
