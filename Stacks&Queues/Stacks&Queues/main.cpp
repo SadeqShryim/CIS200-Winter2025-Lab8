@@ -21,13 +21,16 @@ int timeDelay();
 
 int main() {
 	int num, cars, trafficTime;
-	cout << "What number would you lik eto convert to binary: ";
+	//Func. 1
+	
+	//Func. 2
+	cout << "What number would you like to convert to binary: ";
 	cin >> num;
 
 	string binary = convert_to_binary(num);
 	cout << binary << endl;
-
-	cout << "Simulation" << endl;
+	//Func. 3
+	cout << "---- Traffic Simulation ----" << endl;
 	cout << "You are in traffic. How many cars are ahead: ";
 	cin >> cars;
 
@@ -37,7 +40,21 @@ int main() {
 }
 
 bool is_balanced(string some_string) {
+	stack<char> balanced;
 
+	for (char check : some_string) {
+		if (check == '(' or check == '[' or check == '{') {
+
+		}
+		else if (check == ')' or check == ']' or check == '}')
+		{
+			//base 
+			if (balanced.empty()) {
+				return false;
+			}
+
+		}
+	}
 }
 
 string convert_to_binary(int some_int) {
