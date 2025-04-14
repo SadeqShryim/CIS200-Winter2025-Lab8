@@ -14,4 +14,4 @@ Directions: write 3 functions
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Personal Notes:
-  I included a helper function for time delay not requested in th direction. Makes code look cleaner.
+  I included a helper function for time delay not requested in the direction, but makes code look cleaner for me.
