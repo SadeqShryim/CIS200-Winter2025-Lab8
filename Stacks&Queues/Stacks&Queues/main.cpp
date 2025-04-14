@@ -20,9 +20,14 @@ int timeDelay();
 
 
 int main() {
+	string usrInput;
 	int num, cars, trafficTime;
 	//Func. 1
-	
+	cout << "----- Bracket Checker ------" << endl;
+	cout << "What bracket string do you want to check: ";
+	cin >> usrInput;
+
+	cout << (is_balanced(usrInput) ? "Balanced!!!" : "Not Balanced...") << endl;
 	//Func. 2
 	cout << "What number would you like to convert to binary: ";
 	cin >> num;
@@ -31,7 +36,7 @@ int main() {
 	cout << binary << endl;
 	//Func. 3
 	cout << "---- Traffic Simulation ----" << endl;
-	cout << "You are in traffic. How many cars are ahead: ";
+	cout << "You are in traffic, how many cars are ahead: ";
 	cin >> cars;
 
 	trafficTime = getTimeToStart(cars);
@@ -44,16 +49,23 @@ bool is_balanced(string some_string) {
 
 	for (char check : some_string) {
 		if (check == '(' or check == '[' or check == '{') {
-
+			balanced.push(check);
 		}
 		else if (check == ')' or check == ']' or check == '}')
 		{
-			//base 
+			//base case
 			if (balanced.empty()) {
 				return false;
 			}
+			char top = balanced.top();
 
+			if ((check == ')' and top != '(') or (check == ']' and top != '[') or (check == '}' and top != '{')) {
+				return false; 
+			}
+			balanced.pop();
 		}
+
+		return balanced.empty();
 	}
 }
 
