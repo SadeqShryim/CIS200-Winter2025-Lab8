@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Smshr\source\repos\CIS200-Winter2025-Lab8\Stacks&Queues\Stacks&Queues\main.cpp(93,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Smshr\source\repos\CIS200-Winter2025-Lab8\Stacks&Queues\Stacks&Queues\main.cpp(70,1): warning C4715: 'is_balanced': not all control paths return a value
+  Stacks&Queues.vcxproj -> C:\Users\Smshr\source\repos\CIS200-Winter2025-Lab8\Stacks&Queues\x64\Debug\Stacks&Queues.exe
